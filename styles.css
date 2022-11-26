@@ -1,0 +1,57 @@
+body{
+  background-color: #FBB8A0;
+  font-family: Helvetica;
+  color: #260A04;
+}
+  
+#image{
+  width: 30%;
+  height: auto;
+  padding: 1% 35%;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+}
+
+
+section{
+  padding: 1% 15%;
+}
+
+section p{
+  font-size: 1.5em;
+}
+
+#img-caption{
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.img-size{
+  width: 15em;
+  height: 20em;
+  padding-left:1%;
+}
+
+.solid{
+  border: 1.5px solid #8B140B;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.5em;
+}
+
+.gallery-img{
+  width: 100%;
+  height: auto;
+}
